@@ -14,7 +14,7 @@ function Login() {
 
         try{
 
-            await axios.post("http://localhost:8000/signup",{
+            await axios.post("https://question3-server.vercel.app/signup",{
                 email,password
             })
             .then(res=>{
