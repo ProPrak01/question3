@@ -22,7 +22,7 @@ function Login() {
                     alert("User already exists")
                 }
                 else if(res.data=="notexist"){
-                    history("/home",{state:{id:email}})
+                    history("/question3/home",{state:{id:email}})
                 }
             })
             .catch(e=>{
@@ -55,7 +55,7 @@ function Login() {
             <p>OR</p>
             <br />
 
-            <Link to="/">Login Page</Link>
+            <Link to="/question3">Login Page</Link>
 
         </div>
     )

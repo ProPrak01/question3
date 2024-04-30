@@ -20,7 +20,7 @@ function Login() {
             })
             .then(res=>{
                 if(res.data=="exist"){
-                    history("/home",{state:{id:email}})
+                    history("/question3/home",{state:{id:email}})
                 }
                 else if(res.data=="notexist"){
                     alert("User have not sign up")
@@ -56,7 +56,7 @@ function Login() {
             <p>OR</p>
             <br />
 
-            <Link to="/signup">Signup Page</Link>
+            <Link to="/question3/signup">Signup Page</Link>
 
         </div>
     )
