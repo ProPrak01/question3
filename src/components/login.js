@@ -35,7 +35,7 @@ function Login() {
 
   return (
     <div className="login">
-      <h1>Login</h1>
+      <h1 style={{textDecoration:"underline"}}>Login</h1>
 
       <form action="POST">
         <input
